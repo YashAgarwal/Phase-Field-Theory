@@ -1,0 +1,21 @@
+The input file is made as follows
+
+***********input.dat****************
+n: number of dislocations
+D: size of the matrix
+nsteps: number of time steps
+dxmax: maximum movement of a dislocation in a single time step
+fscanf(f,"%d",&n);
+fscanf(f,"%d",&D);
+fscanf(f,"%le",&nsteps);
+fscanf(f,"%le",&dxmax)
+************************************
+
+***********INSTRUCTIONS****************
+just use
+./run.sh
+to compile,run and main.c and to see a plot of the profiles
+
+***********RESULTS****************
+All like dislocations converge and form a cluster and in the end you see bands of dislocations having alternate sign of bergers vector
+

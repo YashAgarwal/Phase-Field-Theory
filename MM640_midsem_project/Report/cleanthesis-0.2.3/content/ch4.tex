@@ -1,0 +1,35 @@
+\chapter{Pseudo Code}
+This is the general code for which minor changes are made to get the complete results.
+\begin{verbatim}
+Take input from file input.dat
+n_x, delta_x, n_y, delta_y, T, delta_t, T_write
+(after how many steps do we print the output in a file)
+Declare composition,n1,n2,g,h1 & h2 matrix and Allocate memory
+Declare the Fourier Transform's respectively
+
+Calculate half_nx, half_ny, delta_kx & delta_ky
+
+Make the Initial Profile
+Traverse the matrix
+      Generate Random Number R=[-1,1]
+      composition=0.5 +- R*0.04
+			IF i<half_nx
+			   n1=1 & n2=0
+			ELSE
+        	   n1=0 & n2=1
+Start time loop
+Traverse Matrix
+Calculate g,h1,h2
+Take composition,n1,n2,g,h1 & h2 to Fourier space
+Evolve composition    
+Traverse Matrix
+        	Calculate kx,ky
+        	Calculate new composition,n1 & n2 -- 
+    	Take composition,n1 & n2 back to real space
+    	Traverse Matrix
+        Normalise the values and Set imaginary part to zero 
+        for composition,n1 & n2
+    After every T_write time steps write composition profile to file
+end time loop
+Free all memory
+\end{verbatim}

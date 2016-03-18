@@ -1,0 +1,107 @@
+set size square
+set xrange[0:128]
+set yrange[0:128]
+set cbrange [0:1]
+set palette defined ( 0 "white", 1 "black")
+plot "./output/c_0.dat" matrix with image
+pause 1
+plot "./output/c_200.dat" matrix with image
+pause 0.5
+plot "./output/c_400.dat" matrix with image
+pause 0.5
+plot "./output/c_600.dat" matrix with image
+pause 0.5
+plot "./output/c_800.dat" matrix with image
+pause 0.5
+plot "./output/c_1000.dat" matrix with image
+pause 0.5
+plot "./output/c_1200.dat" matrix with image
+pause 0.5
+plot "./output/c_1400.dat" matrix with image
+pause 0.5
+plot "./output/c_1600.dat" matrix with image
+pause 0.5
+plot "./output/c_1800.dat" matrix with image
+pause 0.5
+plot "./output/c_2000.dat" matrix with image
+pause 0.5
+plot "./output/c_2200.dat" matrix with image
+pause 0.5
+plot "./output/c_2400.dat" matrix with image
+pause 0.5
+plot "./output/c_2600.dat" matrix with image
+pause 0.5
+plot "./output/c_2800.dat" matrix with image
+pause 0.5
+plot "./output/c_3000.dat" matrix with image
+pause 0.5
+plot "./output/c_3200.dat" matrix with image
+pause 0.5
+plot "./output/c_3400.dat" matrix with image
+pause 0.5
+plot "./output/c_3600.dat" matrix with image
+pause 0.5
+plot "./output/c_3800.dat" matrix with image
+pause 0.5
+plot "./output/c_4000.dat" matrix with image
+pause 0.5
+plot "./output/c_4200.dat" matrix with image
+pause 0.5
+plot "./output/c_4400.dat" matrix with image
+pause 0.5
+plot "./output/c_4600.dat" matrix with image
+pause 0.5
+plot "./output/c_4800.dat" matrix with image
+pause 0.5
+plot "./output/c_5000.dat" matrix with image
+pause 0.5
+plot "./output/c_5200.dat" matrix with image
+pause 0.5
+plot "./output/c_5400.dat" matrix with image
+pause 0.5
+plot "./output/c_5600.dat" matrix with image
+pause 0.5
+plot "./output/c_5800.dat" matrix with image
+pause 0.5
+plot "./output/c_6000.dat" matrix with image
+pause 0.5
+plot "./output/c_6200.dat" matrix with image
+pause 0.5
+plot "./output/c_6400.dat" matrix with image
+pause 0.5
+plot "./output/c_6600.dat" matrix with image
+pause 0.5
+plot "./output/c_6800.dat" matrix with image
+pause 0.5
+plot "./output/c_7000.dat" matrix with image
+pause 0.5
+plot "./output/c_7200.dat" matrix with image
+pause 0.5
+plot "./output/c_7400.dat" matrix with image
+pause 0.5
+plot "./output/c_7600.dat" matrix with image
+pause 0.5
+plot "./output/c_7800.dat" matrix with image
+pause 0.5
+plot "./output/c_8000.dat" matrix with image
+pause 0.5
+plot "./output/c_8200.dat" matrix with image
+pause 0.5
+plot "./output/c_8400.dat" matrix with image
+pause 0.5
+plot "./output/c_8600.dat" matrix with image
+pause 0.5
+plot "./output/c_8800.dat" matrix with image
+pause 0.5
+plot "./output/c_9000.dat" matrix with image
+pause 0.5
+plot "./output/c_9200.dat" matrix with image
+pause 0.5
+plot "./output/c_9400.dat" matrix with image
+pause 0.5
+plot "./output/c_9600.dat" matrix with image
+pause 0.5
+plot "./output/c_9800.dat" matrix with image
+pause 0.5
+plot "./output/c_10000.dat" matrix with image
+pause 0.5

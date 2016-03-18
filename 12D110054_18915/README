@@ -1,0 +1,18 @@
+The input file is made as follows
+
+***********input.dat****************
+N
+concentration for B
+Temperature
+Eaa
+Ebb
+Eab
+************************************
+
+***********INSTRUCTIONS****************
+just use
+./run.sh
+to compile,run and main.c and to see a plot of the profiles
+
+***********RESULTS****************
+like atoms start to couple together and large grains of B and A are observed

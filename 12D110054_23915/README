@@ -1,0 +1,18 @@
+The input file is made as follows
+
+***********input.dat****************
+N
+concentration for B
+Temperature
+Euu(both up spin)
+Edd(both down spin)
+Edu(up and down spin)
+************************************
+
+***********INSTRUCTIONS****************
+just use
+./run.sh
+to compile,run and main.c and to see a plot of the profiles
+
+***********RESULTS****************
+like spins start to couple together and large domains of UP and DOWN spins are observed

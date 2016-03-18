@@ -1,0 +1,20 @@
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 1
+\BOOKMARK [0][]{chapter.2}{2 Model}{}% 2
+\BOOKMARK [1][]{section*.3}{2.1 Cahn Hilliard Model}{chapter.2}% 3
+\BOOKMARK [1][]{section*.4}{2.2 Cahn Allen Model}{chapter.2}% 4
+\BOOKMARK [1][]{section*.6}{2.3 Conclusion}{chapter.2}% 5
+\BOOKMARK [0][]{chapter.3}{3 Mathematical Formulation of the Model}{}% 6
+\BOOKMARK [1][]{section*.8}{3.1 Energetics}{chapter.3}% 7
+\BOOKMARK [1][]{section*.9}{3.2 Kinetics}{chapter.3}% 8
+\BOOKMARK [1][]{section*.10}{3.3 Numerical Implementation}{chapter.3}% 9
+\BOOKMARK [0][]{chapter.4}{4 Settings for Simulation}{}% 10
+\BOOKMARK [1][]{section*.12}{4.1 The values of the parameters}{chapter.4}% 11
+\BOOKMARK [1][]{section*.14}{4.2 Variation of m\(c\) and c\(disturbance\)}{chapter.4}% 12
+\BOOKMARK [0][]{chapter.5}{5 Pseudo Code}{}% 13
+\BOOKMARK [0][]{chapter.6}{6 Results}{}% 14
+\BOOKMARK [1][]{section*.18}{6.1 GB effects in a two-grain system}{chapter.6}% 15
+\BOOKMARK [1][]{section*.21}{6.2 Effect of \(-\) and initial fluctuation}{chapter.6}% 16
+\BOOKMARK [2][]{section*.24}{6.2.1 Analysis of deviation of composition from average composition with distance from the GB}{section*.21}% 17
+\BOOKMARK [2][]{section*.27}{6.2.2 R1\(t\) vs t}{section*.21}% 18
+\BOOKMARK [1][]{section*.30}{6.3 Number of GB bands}{chapter.6}% 19
+\BOOKMARK [0][]{chapter.7}{7 Conclusions}{}% 20

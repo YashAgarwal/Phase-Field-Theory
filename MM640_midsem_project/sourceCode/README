@@ -1,0 +1,38 @@
+The input file is made as follows
+
+***********input.dat****************
+n_x(number of nodes)
+delta_x
+n_y(number of nodes)
+delta_y
+delta_t
+T(number of time steps)
+delc //initial profile disturbance
+systemNum //system number 
+************************************
+
+***********INSTRUCTIONS****************
+first cd to this folder and then continue
+****changing the working directory is necessary****
+
+first use 
+
+./generateData.sh 
+
+to generate all the data required to make the analysis plots
+then go into the specific Fig# folder anduse
+
+./run.sh
+
+to compile,run and main.c and to see a plot of the profile
+
+you can use 
+
+./clean.sh 
+
+in any folder to delete the output files created by the previous code runs
+****These output files require a lot of space about 2GB****
+
+Separate folder are made for reproducing the specific figures in the paper and these folder take the data from the mainData folder where we have run the general code for all the system numbers with different initial fluctuation.
+
+Each folder consists of a plotFig<#NUM>.gp file and can be used directly to plot the specific figures

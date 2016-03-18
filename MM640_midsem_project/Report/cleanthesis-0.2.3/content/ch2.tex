@@ -1,0 +1,82 @@
+\chapter{Mathematical Formulation of the Model}
+
+\section{Energetics}
+The Total Free energy, \textbf{F}, of a system with inhomogeneities in both \textbf{c} and $\mathbold{\eta_{i}}$ is written as a volume integral:
+
+\begin{equation}
+F=N_V\int\left[f(c,\eta_i)+ \kappa(\nabla c)^2 +\sum_i^n \kappa(\nabla \eta_i)^2    \right] 
+\end{equation}
+
+where, 
+$\mathbold{N_V}$ is the (constant) number of atoms per unit volume,
+$\mathbold{f(c,\eta_{i})}$ is the bulk free energy density and, 
+$\mathbold{\kappa_{c}}$ and $\mathbold{\kappa_{i}}$ are the (constant) gradient energy coefficients associated with inhomogeneities in \textbf{c} and in $\mathbold{\eta_{i}}$ , respectively. 
+It is assumed that $\mathbold{\kappa_{i}=\kappa_{\eta}}$ for all i.
+
+Thus, the bulk free energy density $\mathbold{f(c,\eta_{i})}$ is chosen such that it exhibits a minimum for these \textbf{2n} possibilities. In other words, \textbf{f} has \textbf{2n} degenerate minima (whose value is chosen to be 0). 
+These minima are located at \textbf{n} grains of  $\mathbold{\alpha}$ with a composition of $\mathbold{c = 0:(0;1,0,...,0), (0;0,1,...,0),...,(0;0,0,...,1),}$ and \textbf{n} grains of $\mathbold{\beta}$ with a composition of \\
+$\mathbold{c = 1:(1;1,0,...,0), (1;0,1,...,0),...,(1;0,0,...,1).}$
+
+%equation
+
+\begin{equation}
+f(c,\eta_i)=f(c_o)+m(c)\left\{  0.25+\sum_i^n \left[- \frac{\eta_i^2}{2}+ \frac{\eta_i^4}{4}\right] + \epsilon\sum_i^n\sum_{j>i}^n \eta_i^2\eta_j^2 \right\}
+\end{equation}
+
+
+$\mathbold{f_o(c)}$ is the free energy per atom in a bulk single crystal of composition \textbf{c} given by: The constant $\mathbold{A_c}$ determines the height of the free energy barrier between the equilibrium phases within a single grain, $\mathbold{m(c)}$ is a composition dependent factor which couples \textbf{c} and $\mathbold{\eta_{i}}$ and $\mathbold{\epsilon}$ is a constant. 
+
+%%equation
+
+\begin{equation}
+f(c_o)=A_c c^2(1-c)^2
+\end{equation}
+
+\begin{equation}
+f(c,\eta_i)=f(c_o)+m(c)\left\{  0.25+\sum_i^n \left[- \frac{\eta_i^2}{2}+ \frac{\eta_i^4}{4}\right] + \epsilon\sum_i^n\sum_{j>i}^n \eta_i^2\eta_j^2 \right\}
+\end{equation}
+
+
+Note that the terms within the curly braces are even functions of $\mathbold{\eta_{i}}$ ; therefore, $\mathbold{f(c,\eta_{i})}$ has additional degenerate minima at \textbf{2n} more locations with negative values of $\mathbold{f(c,\eta_{i})}$ such as $\mathbold{{c ;\eta_{i}} = (0;-1,0,...,0),...}$. In this case, these extra degenerate equilibrium states are excluded by working only with $\mathbold{\eta_{i}\geq 0}$.
+
+\section{Kinetics}
+The evolution of the composition field \textbf{c} is governed by the Cahn–Hilliard equation for conserved variables:
+
+%equation
+
+\begin{equation}
+\frac{\partial c}{\partial t}=M\nabla^2\left[\frac{\partial \frac{F}{N_V}}{\partial c}\right]
+\end{equation}
+
+where $\mathbold{\frac{\partial \frac{F}{N_V}}{\partial c}=\mu}$ is the chemical potential whose gradient drives diffusion, and \textbf{M} is the atomic mobility.
+
+The evolution of order parameter fields $\mathbold{\eta_{i}}$ is governed by the Cahn–Allen equation for non-conserved variables:
+
+%equations
+\begin{equation}
+\frac{\partial \eta_i}{\partial t}=-L_i\left[\frac{\partial \frac{F}{N_V}}{\partial \eta_i}\right]
+\end{equation}
+
+where $\mathbold{\frac{\partial \frac{F}{N_V}}{\partial \eta_i}}$ is the total free energy (per atom) with respect to $\mathbold{\eta_{i}}$ , and $\mathbold{L_{i}}$ are the relaxation coefficients for $\mathbold{\eta_{i}}$ . Here, \textbf{M} and $\mathbold{L_i= L (i = 1,2,...,n)}$ are assumed to be constants.
+
+\section{Numerical Implementation}
+
+\begin{equation}
+\frac{\partial c}{\partial t}=M\nabla^2\left[g(c)-2\kappa_c\nabla^4 c\right]
+\end{equation}
+
+where $\mathbold{g(c)=\frac{\partial f}{\partial c}}$
+The numerical method used in our simulations is based on the semi-implicit Fourier spectral method
+
+\begin{equation}
+\tilde{c}(k,t+\triangle t)=\frac{\tilde{c}(k,t)-\triangle t M k^2 \tilde{g}(k,t)}{1+2\triangle t M \kappa_c k^4}
+\end{equation}
+
+Similarly for the Cahn–Allen equation
+
+\begin{equation}
+\tilde{\eta_i}(k,t+\triangle t)=\frac{\tilde{\eta_i}(k,t)-\triangle t L_i \tilde{h_i}(k,t)}{1+2\triangle t L_i \kappa_\eta k^2}
+\end{equation}
+
+where $\mathbold{h_i=\frac{\partial f}{\partial \eta_i}}$
+

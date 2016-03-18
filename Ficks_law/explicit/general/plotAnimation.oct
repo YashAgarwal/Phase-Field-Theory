@@ -1,0 +1,1001 @@
+
+data=load("./output/c_50.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_100.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_150.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_200.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_250.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_300.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_350.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_400.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_450.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_500.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_550.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_600.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_650.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_700.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_750.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_800.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_850.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_900.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_950.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1000.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1050.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1100.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1150.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1200.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1250.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1300.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1350.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1400.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1450.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1500.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1550.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1600.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1650.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1700.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1750.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1800.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1850.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1900.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_1950.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2000.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2050.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2100.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2150.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2200.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2250.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2300.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2350.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2400.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2450.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2500.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2550.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2600.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2650.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2700.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2750.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2800.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2850.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2900.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_2950.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3000.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3050.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3100.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3150.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3200.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3250.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3300.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3350.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3400.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3450.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3500.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3550.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3600.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3650.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3700.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3750.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3800.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3850.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3900.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_3950.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4000.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4050.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4100.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4150.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4200.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4250.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4300.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4350.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4400.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4450.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4500.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4550.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4600.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4650.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4700.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4750.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4800.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4850.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4900.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_4950.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5000.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5050.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5100.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5150.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5200.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5250.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5300.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5350.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5400.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5450.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5500.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5550.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5600.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5650.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5700.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5750.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5800.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5850.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5900.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_5950.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6000.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6050.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6100.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6150.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6200.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6250.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6300.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6350.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6400.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6450.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6500.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6550.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6600.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6650.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6700.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6750.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6800.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6850.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6900.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_6950.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7000.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7050.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7100.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7150.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7200.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7250.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7300.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7350.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7400.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7450.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7500.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7550.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7600.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7650.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7700.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7750.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7800.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7850.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7900.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_7950.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8000.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8050.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8100.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8150.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8200.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8250.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8300.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8350.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8400.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8450.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8500.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8550.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8600.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8650.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8700.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8750.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8800.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8850.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8900.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_8950.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9000.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9050.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9100.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9150.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9200.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9250.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9300.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9350.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9400.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9450.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9500.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9550.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9600.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9650.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9700.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9750.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9800.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9850.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9900.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_9950.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);
+data=load("./output/c_10000.dat");
+plot(data(:,1)','LineWidth',4);
+ylim([0,1]);
+hold off
+sleep(0.1);

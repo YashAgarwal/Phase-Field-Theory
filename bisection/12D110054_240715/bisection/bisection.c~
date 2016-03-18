@@ -1,0 +1,73 @@
+#include<stdio.h>
+#include<math.h>
+double a1,a2,a3;
+double f(double x)
+{
+return a1*x*x+a2*x+a3;
+}
+int main(void)
+{
+
+double a,b,c,Tol;
+int Nmax;
+//Take Input
+
+FILE *fp,*fout;
+fp=fopen("inputData.dat","r");
+fout=fopen("outputData.dat","w");
+
+fscanf(fp,"%lf",&a1);
+fscanf(fp,"%lf",&a2);
+fscanf(fp,"%lf",&a3);
+fscanf(fp,"%lf",&a);
+fscanf(fp,"%lf",&b);
+fscanf(fp,"%lf",&Tol);
+fscanf(fp,"%d",&Nmax);
+
+//Processing
+int rootFound=1,checked=1;
+int N=0;
+//Validation
+
+if(a>b)
+{
+fprintf(fout,"Please interchange the limits a & b: a should be lesser than b\n");
+checked=0;
+}
+
+if(f(a)*f(b)>0)
+{
+fprintf(fout,"There are no roots between a & b\n");
+checked=0;
+}
+		
+if(checked)
+{
+	while(N<Nmax)
+	{
+		c=(a+b)/2;
+		if(f(c)==0 || (b-a)/2<Tol)
+		{
+			//Output
+			fprintf(fout,"the root is %le",c);
+			rootFound=0; //zero specifying that root found
+			break;
+		}
+		N=N+1;
+		if(f(a)*f(c)>0)
+		{
+			a=c;
+		}
+		else
+		{
+			b=c;
+		}
+	}
+}
+//Output fail
+if(rootFound)
+	{
+		fprintf(fout,"No Root Found\n");
+	}		
+return 0;
+}

@@ -1,0 +1,15 @@
+The input file is made as follows
+
+***********input.dat****************
+N
+concentration for A
+Temperature
+Eaa(both up spin)
+Ebb(both down spin)
+Eba(up and down spin)
+************************************
+
+***********INSTRUCTIONS****************
+just use
+./run.sh
+to compile,run and main.c and to see a plot of the profiles
